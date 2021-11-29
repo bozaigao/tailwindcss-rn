@@ -1,0 +1,71 @@
+module.exports = {
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    spacing: {
+      4: '2px',
+      8: '4px',
+      12: '6px',
+      16: '8px',
+      20: '10px',
+      24: '12px',
+      28: '14px',
+      32: '16px',
+      36: '18px',
+      40: '20px',
+    },
+    borderRadius: {
+      0: '0',
+      4: '2px',
+      8: '4px',
+      12: '6px',
+      16: '8px',
+      20: '10px',
+      24: '12px',
+      28: '14px',
+      32: '16px',
+      36: '18px',
+      40: '20px',
+      full: '9999px',
+    },
+    fontSize: {
+      20: ['10px', '14px'],
+      22: ['11px', '15px'],
+      24: ['12px', '16.5px'],
+      26: ['13px', '18.5px'],
+      28: ['14px', '20px'],
+      30: ['15px', '21px'],
+      32: ['16px', '22.5px'],
+      34: ['17px', '24px'],
+      36: ['18px', '25px'],
+      38: ['19px', '26.5px'],
+      40: ['20px', '28px'],
+    },
+    extend: {
+      colors: {
+        primary: '#1e8aff',
+        gray: {
+          900: '#2a2a2a',
+          800: '#4a4a4a',
+          700: '#6a6a6a',
+          600: '#9a9a9a',
+          500: '#bbbbbb',
+          400: '#dddddd',
+          300: '#eeeeee',
+          200: '#f1f1f1',
+          100: '#f6f7f8',
+        },
+        red: {
+          450: '#ff3030',
+        },
+        yellow: {
+          450: '#ffa730',
+        },
+      },
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};
